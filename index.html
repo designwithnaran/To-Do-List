@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animated Todo List</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Animated Todo List</h1>
+        <div class="input-container">
+            <input type="text" id="taskInput" placeholder="Enter a new task">
+            <button id="addTask">Add Task</button>
+        </div>
+        <ul id="taskList"></ul>
+        <button id="showCompleted">Show Completed Tasks</button>
+        <div id="completedTasks" class="hidden">
+            <h2>Completed Tasks Today</h2>
+            <ul id="completedList"></ul>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
